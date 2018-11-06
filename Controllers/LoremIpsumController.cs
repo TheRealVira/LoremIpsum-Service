@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace LoremIpsumService.Controllers
 {
-    [Route("api/LoremIpsumController")]
+    [Route("api/lipsum_generator")]
     [ApiController]
     [Produces("application/json")]
     public class LoremIpsumController : ControllerBase
@@ -16,7 +16,7 @@ namespace LoremIpsumService.Controllers
         public ActionResult<string> Get(string generatorType,int count, int length)
         {
             var toRet = new List<object>();
-            if (!Enum.TryParse(generatorType, out LoremIpsumGeneratorType currentGeneratorType))
+            if (!Enum.TryParse(generatorType, true, out LoremIpsumGeneratorType currentGeneratorType))
                 return BadRequest(toRet);
 
             for (var i = 0; i < count; i++)
@@ -35,7 +35,7 @@ namespace LoremIpsumService.Controllers
                 }
             }
 
-            return Ok(JsonConvert.SerializeObject(toRet, Formatting.Indented));
+            return Ok(JsonConvert.SerializeObject(toRet));
         }
     }
 }
