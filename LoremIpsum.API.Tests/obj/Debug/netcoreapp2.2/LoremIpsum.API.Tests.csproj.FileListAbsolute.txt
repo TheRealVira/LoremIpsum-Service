@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.Tests.deps.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.Tests.runtimeconfig.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.Tests.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.Tests.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.pdb
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.csproj.CopyComplete
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\bin\Debug\netcoreapp2.2\LoremIpsum.API.Tests.pdb
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.dll
+C:\Users\Administrator\Desktop\DA\Microservice\LoremIpsum\Services\LoremIpsum\LoremIpsum.API.Tests\obj\Debug\netcoreapp2.2\LoremIpsum.API.Tests.pdb
