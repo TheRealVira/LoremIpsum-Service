@@ -2,7 +2,7 @@ FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/dotnet:2.2.100-preview3-sdk AS build
+FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
 COPY ["Services/LoremIpsum/LoremIpsum.API/LoremIpsum.API.csproj", "Services/LoremIpsum/LoremIpsum.API/"]
 RUN dotnet restore "Services/LoremIpsum/LoremIpsum.API/LoremIpsum.API.csproj"
