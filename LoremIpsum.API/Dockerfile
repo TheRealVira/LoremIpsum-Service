@@ -1,13 +1,14 @@
-FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/dotnet:2.2-sdk AS build
+FROM microsoft/dotnet:sdk AS build
 WORKDIR /src
-COPY ["Services/LoremIpsum/LoremIpsum.API/LoremIpsum.API.csproj", "Services/LoremIpsum/LoremIpsum.API/"]
-RUN dotnet restore "Services/LoremIpsum/LoremIpsum.API/LoremIpsum.API.csproj"
+COPY LoremIpsum.API/LoremIpsum.API.csproj LoremIpsum.API/
+RUN apt-get update && apt-get install -y libcurl3
+RUN dotnet restore LoremIpsum.API/LoremIpsum.API.csproj
 COPY . .
-WORKDIR "/src/Services/LoremIpsum/LoremIpsum.API"
+WORKDIR /src/LoremIpsum.API
 RUN dotnet build "LoremIpsum.API.csproj" -c Release -o /app
 
 FROM build AS publish
